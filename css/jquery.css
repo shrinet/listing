@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+/* some custom fonts via google font api */
+
+/* content block 4 */
+#mcs4_container {
+    border-radius: 0 0 0 0;
+    height: 236px;
+    margin-top:-10;
+    padding: 0 10px;
+    top: -10px;
+    width: 360px;
+}
+#mcs4_container .customScrollBox{position:relative; height:100%; overflow:hidden;}
+#mcs4_container .customScrollBox .container{position:relative; width:340px; top:-20px; float:left;}
+#mcs4_container .customScrollBox .content{clear:both;}
+#mcs4_container .customScrollBox .content p{padding:10px 5px; margin:10px 0;font-family:Arial, Helvetica, sans-serif;font-size:12px; text-align:justify;color:#858A81; line-height:20px;}
+#mcs4_container .dragger_container{position:relative; width:0px; height:215px; float:left; margin:10px 0 0 10px; border-left:1px solid #C2C8A8; cursor:pointer;}
+#mcs4_container .dragger{position:absolute; width:10px; height:10px; background:#C2C8A8; margin-left:-5px; text-align:center; overflow:hidden; cursor:pointer; -moz-border-radius:18px; -khtml-border-radius:18px; -webkit-border-radius:18px; border-radius:18px;}
+#mcs4_container .dragger_pressed{position:absolute; width:10px; height:10px; background:#C2C8A8; margin-left:-5px; overflow:hidden; cursor:s-resize;}
